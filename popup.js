@@ -279,10 +279,10 @@ function extractScheduleEvents(semesterStartInput) {
 document.getElementById('runBtn').addEventListener('click', async () => {
   const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
 
-  if (!tab?.url || !tab.url.includes('berkeley')) {
-    alert('Please open the Berkeley schedule page first.');
-    return;
-  }
+  // if (!tab?.url || !tab.url.includes('berkeley')) {
+  //   alert('Please open the Berkeley schedule page first.');
+  //   return;
+  // }
 
   const startInput = document.getElementById('semesterStart');
   const endInput = document.getElementById('semesterEnd');
