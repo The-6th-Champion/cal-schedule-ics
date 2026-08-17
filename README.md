@@ -11,12 +11,15 @@ A Chrome extension that converts your UC Berkeley schedule into an ICS calendar 
 - 📍 **Full details** – Includes course info, instructor, location, and meeting times
 
 ## Installation
+Note. this tutorial uses the Brave browser, but the steps are identical for Chrome or any Chromium-based browser. (Thats why things look a little different, theme-wise.)
 
 ### Option 1: Download from Releases (Easiest)
 
-1. Go to the [Releases page](https://github.com/yourusername/cal-schedule-ics/releases)
+1. Go to the [Releases page](https://github.com/The-6th-Champion/cal-schedule-ics/releases)
+![Screenshot: Releases page](Assets/releasespage.png)
 2. Download the latest `cal-schedule-ics.zip` file
 3. Extract the ZIP file to a folder on your computer
+![Screenshot: Extracted folder](Assets/unzip.png)
 4. Continue to "Load into Chrome" below
 
 ### Option 2: Clone the Repository
@@ -32,34 +35,44 @@ A Chrome extension that converts your UC Berkeley schedule into an ICS calendar 
 1. **Open Chrome Extensions page**
    - Go to `chrome://extensions/` in your browser
    - Enable **Developer mode** (toggle in top right)
+![Screenshot: Starting Developer mode](Assets/devmode.png)
 
 2. **Load the extension**
    - Click **Load unpacked**
    - Select the `cal-schedule-ics` folder (either from the ZIP or cloned repo)
    - The extension should appear in your toolbar
+![Screenshot: Extension loaded](Assets/loadunpacked.png)
+![Screenshot: Choose cal-schedule-ics folder](Assets/choosefolder.png)
+![Screenshot: Visible extension on page](Assets/visibleextension.png)
+
 
 ## How to Use
 
 1. **Log into Berkeley**
-   - Go to [Berkeley Schedule of Classes](https://schedule.berkeley.edu/) or your registration page
+   - Go to the **Schedule Planner**
    - Make sure you're logged in and viewing your registered classes
-   - ![Screenshot: Berkeley Schedule Page](screenshots/berkeley-schedule.png)
+![Screenshot: Berkeley Schedule Page](Assets/gotoschedule.png)
+
 
 2. **Open the extension**
    - Click the **Cal Schedule ICS** extension icon in your Chrome toolbar
-   - ![Screenshot: Extension Popup](screenshots/popup-dates.png)
+![Screenshot: Extension Popup](Assets/findextension.png)
 
 3. **Enter semester dates**
    - **Semester Start:** First day of classes (e.g., August 25, 2026)
    - **Semester End:** Last day of classes (e.g., December 18, 2026)
    - Click **Export**
+![Screenshot: Enter semester dates](Assets/setsemesterdates.png)
 
 4. **Download and import**
    - A `schedule.ics` file downloads automatically
    - Open your calendar app (Google Calendar, Apple Calendar, Outlook, etc.)
+![Screenshot: Open calendar app](Assets/gotocalendarapp.png)
    - Import or drag-and-drop the `.ics` file
+![Screenshot: Choose import file](Assets/chooseimport.png)
+![Screenshot: Select schedule.ics](Assets/selectgeneratedfile.png)
    - All your classes appear as weekly recurring events for the semester
-   - ![Screenshot: Calendar with imported events](screenshots/calendar-imported.png)
+   - ![Screenshot: Calendar with imported events](Assets/voila.png)
 
 ## Troubleshooting
 
