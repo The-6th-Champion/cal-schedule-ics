@@ -11,3 +11,5 @@
   // const classTimes = pageText.match(/\d{1,2}:\d{2}\s?[AP]M/g);
   // console.log("Found times:", classTimes);
 })();
+
+// This content script is not being used for any functionality in the current version of the extension. It was originally intended to extract class times from the page text, but that functionality has been moved to the background script. The content script is kept here for potential future use or debugging purposes.
