@@ -13,7 +13,13 @@ A Chrome extension that converts your UC Berkeley schedule into an ICS calendar 
 ## Installation
 Note. this tutorial uses the Brave browser, but the steps are identical for Chrome or any Chromium-based browser. (Thats why things look a little different, theme-wise.)
 
-### Option 1: Download from Releases (Easiest)
+### Option 1: Install from Chrome Web Store
+
+1. Go to the [Chrome Web Store Listing](https://chromewebstore.google.com/detail/cal-schedule-ics/bkigfjobfanfnkmclkdmggfnhoicfpnp?authuser=3&hl=en)
+2. Add to Chrome
+3. Continue to "How to use" below
+
+### Option 2: Download from Releases
 
 1. Go to the [Releases page](https://github.com/The-6th-Champion/cal-schedule-ics/releases)
 ![Screenshot: Releases page](Assets/releasespage.png)
@@ -22,7 +28,7 @@ Note. this tutorial uses the Brave browser, but the steps are identical for Chro
 ![Screenshot: Extracted folder](Assets/unzip.png)
 4. Continue to "Load into Chrome" below
 
-### Option 2: Clone the Repository
+### Option 3: Clone the Repository
 
 1. **Clone or download this repository**
    ```bash
